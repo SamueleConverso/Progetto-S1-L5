@@ -1,1 +1,78 @@
 /* Your styles here */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+    font-size: 1.2rem;
+}
+
+h1, h4 {
+    color: #25A2C3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.img-logo {
+    width: 15%;
+    padding: 1.8rem;
+}
+
+header {
+    background-color: black;
+}
+
+
+.background {
+    width: 100%;
+    height: 65vh;
+    background-image: url("/assets/img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+}
+
+.background h1 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.scritte {
+    padding-top: 25vh;
+}
+
+.bottone {
+    background-color: #F14C2F;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+} 
+
+.article1 {
+    margin: 5rem 8rem;
+    text-align: center;
+}
+
+.article1 img {
+    border-radius: 50%;
+}
+
+.img-notebook, .paragrafo1 {
+    display: inline-block;
+}
+
+.paragrafo1 {
+    margin-left: 3rem;
+    vertical-align: top;
+}
+
+.paragrafo1 p, .paragrafo1 h4 {
+    text-align: start;
+    line-height: 3em;
+}
+

@@ -191,8 +191,9 @@ a {
 }
 
 .lista {
-    padding-left: 45%;
-    padding-right: 44%;
+    width: 50%;
+    padding-left: 46%;
+    padding-right: 46%;
 }
 
 .foot-text .lista {

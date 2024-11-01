@@ -75,3 +75,145 @@ header {
     line-height: 3em;
 }
 
+.article2 {
+    text-align: center;
+    padding: 80px;
+    background-color: red;
+    color: white;
+}
+
+.article2 p {
+    font-style: italic;
+    color: white;
+}
+
+.article2 h4 {
+    color: white;
+}
+
+.article3 {
+    margin: 3rem 8rem;
+    text-align: center;
+}
+
+.blocco1 {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 600px;
+    min-height: 450px;
+    margin-right: 3rem;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.blocco1 img {
+    width: 100%;
+}
+
+.blocco1 h4 {
+    font-size: 1rem;
+}
+.blocco1 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.blocco2 {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 600px;
+    min-height: 450px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.blocco2 img {
+    height: 397.64px;
+    width: 100%;
+}
+
+.blocco2 h4 {
+    font-size: 1rem;
+}
+
+.blocco2 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.blocco3 {
+    text-align: center;
+    display: inline-block; 
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 600px;
+    min-height: 450px;
+    margin-left: 3rem;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.blocco3 img {
+    height: 397.64px;
+    width: 100%;
+}
+
+.blocco3 h4 {
+    font-size: 1rem;
+}
+
+.blocco3 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.foot {
+    text-align: center;
+    background-color: #25A2C3;
+    padding: 3rem;
+    color: white;
+}
+
+.foot h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.foot p, .lista {
+    font-size: 14px;
+}
+
+a {
+    color: white;
+}
+
+.lista {
+    padding-left: 44.5vw;
+}
+
+.foot-text .lista {
+    text-align: start;
+}
+
+hr {
+    width: 200px;
+    margin: 2rem auto;
+}
+
+ion-icon {
+    background-color: white;
+    color: #25A2C3;
+}
+
+.material-symbols-outlined {
+    font-size: 14px;
+    background-color: white;
+    color: #25A2C3;
+}

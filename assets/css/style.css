@@ -53,7 +53,7 @@ header {
 } 
 
 .article1 {
-    margin: 5rem 8rem;
+    margin: 5rem 4rem;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ header {
 }
 
 .paragrafo1 {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 2rem;
     vertical-align: top;
 }
@@ -112,8 +112,7 @@ header {
     display: inline-block;
     border: 1px solid #dee1e3;
     box-sizing: border-box;
-    width: 600px;
-    min-height: 450px;
+    width: 300px;
     border-radius: 2px;
     vertical-align: top;
 }
@@ -135,15 +134,14 @@ header {
     display: inline-block;
     border: 1px solid #dee1e3;
     box-sizing: border-box;
-    width: 600px;
-    min-height: 450px;
+    width: 300px;
     border-radius: 2px;
     vertical-align: top;
 }
 
 .blocco2 img {
-    height: 397.64px;
     width: 100%;
+    height: 199.26px;
 }
 
 .blocco2 h4 {
@@ -160,14 +158,13 @@ header {
     display: inline-block; 
     border: 1px solid #dee1e3;
     box-sizing: border-box;
-    width: 600px;
-    min-height: 450px;
+    width: 300px;
     border-radius: 2px;
     vertical-align: top;
 }
 
 .blocco3 img {
-    height: 397.64px;
+    height: 199.26px;
     width: 100%;
 }
 
@@ -181,19 +178,23 @@ header {
 }
 
 .foot {
-    text-align: center;
     background-color: #25A2C3;
     padding: 3rem;
     color: white;
 }
 
+.foot div {
+    font-size: 14px;
+}
+
 .foot h2 {
+    text-align: center;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 2rem;
 }
 
-.foot p, .lista {
+.foot p {
     font-size: 14px;
 }
 
@@ -210,12 +211,8 @@ a {
     text-align: start;
 }*/
 
-.indirizzo {
-    margin: 0 auto;
-}
-
 .indirizzo p {
-    text-align: start;
+    text-align: center;
 }
 
 hr {
@@ -226,9 +223,15 @@ hr {
 ion-icon, .material-symbols-outlined {
     background-color: white;
     color: #25A2C3;
-    margin-right: 0.8em;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-left: 43%;
 }
 
 .material-symbols-outlined {
     font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
 }

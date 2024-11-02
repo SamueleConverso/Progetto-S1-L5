@@ -5,6 +5,7 @@ body {
     line-height: 1.65;
     color: #393d41;
     font-size: 1.2rem;
+    max-width: 500px;
 }
 
 h1, h4 {
@@ -15,18 +16,22 @@ h1, h4 {
 }
 
 .img-logo {
-    width: 10%;
-    padding: 1.8rem;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
 }
 
 header {
     background-color: black;
+    width: 100%;
+    text-align: center;
 }
 
 
 .background {
     height: 100%;
-    background-image: url("/assets/img/banner.jpg");
+    background-image: url("/Progetto_mobile/assets/img/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -39,7 +44,7 @@ header {
 }
 
 .scritte {
-   padding: 11rem;
+   padding: 1rem;
 }
 
 .bottone {
@@ -59,20 +64,22 @@ header {
 
 .article1 img {
     border-radius: 50%;
+    width: 80%;
+    margin-top: 2rem;
 }
 
-.img-notebook, .paragrafo1 {
+.img-notebook, .paragrafo2 {
     display: inline-block;
 }
 
-.paragrafo1 {
+.paragrafo2 {
     margin-left: 2rem;
     margin-top: 2rem;
     vertical-align: top;
 }
 
-.paragrafo1 p, .paragrafo1 h4 {
-    text-align: start;
+.paragrafo2 p, .paragrafo2 h4 {
+    text-align: center;
     line-height: 2.5em;
 }
 
@@ -86,10 +93,13 @@ header {
 .article2 .corsivo {
     font-style: italic;
     color: white;
+    font-size: 16px;
 }
 
 .article2 h4 {
     color: white;
+    margin-bottom: 3rem;
+    font-size: 28px;
 }
 
 .article2 .citazione {
@@ -103,7 +113,8 @@ header {
 
 
 .article3 {
-    margin: 3rem 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -115,6 +126,8 @@ header {
     width: 300px;
     border-radius: 2px;
     vertical-align: top;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .blocco1 img {
@@ -137,6 +150,8 @@ header {
     width: 300px;
     border-radius: 2px;
     vertical-align: top;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .blocco2 img {
@@ -161,6 +176,8 @@ header {
     width: 300px;
     border-radius: 2px;
     vertical-align: top;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .blocco3 img {
@@ -211,21 +228,20 @@ a {
     text-align: start;
 }*/
 
-.indirizzo p {
-    text-align: center;
+hr {
+    width: 200px;
+    margin: 2rem auto;
 }
 
-hr {
-    width: 250px;
-    margin: 2rem auto;
+.indirizzo {
+    text-align: center;
 }
 
 ion-icon, .material-symbols-outlined {
     background-color: white;
     color: #25A2C3;
-    margin-right: 5px;
     vertical-align: middle;
-    margin-left: 43%;
+    margin-right: 5px;
 }
 
 .material-symbols-outlined {

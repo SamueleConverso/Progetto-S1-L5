@@ -1,0 +1,237 @@
+/* Your styles here */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+    font-size: 1.2rem;
+}
+
+h1, h4 {
+    color: #25A2C3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.img-logo {
+    width: 10%;
+    padding: 1.8rem;
+}
+
+header {
+    background-color: black;
+}
+
+
+.background {
+    height: 100%;
+    background-image: url("/assets/img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+}
+
+.background h1 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.scritte {
+   padding: 11rem;
+}
+
+.bottone {
+    background-color: #F14C2F;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+} 
+
+.article1 {
+    margin: 5rem 4rem;
+    text-align: center;
+}
+
+.article1 img {
+    border-radius: 50%;
+}
+
+.img-notebook, .paragrafo1 {
+    display: inline-block;
+}
+
+.paragrafo1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    vertical-align: top;
+}
+
+.paragrafo1 p, .paragrafo1 h4 {
+    text-align: start;
+    line-height: 2.5em;
+}
+
+.article2 {
+    text-align: center;
+    padding: 80px;
+    background-color: #E22D0E;
+    color: white;
+}
+
+.article2 .corsivo {
+    font-style: italic;
+    color: white;
+}
+
+.article2 h4 {
+    color: white;
+}
+
+.article2 .citazione {
+    margin-top: 3rem;
+    font-size: 14px;
+}
+
+.article2 .citazione2 {
+    font-size: 10px;
+}
+
+
+.article3 {
+    margin: 3rem 8rem;
+    text-align: center;
+}
+
+.blocco1 {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #dee1e3;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 2px;
+    vertical-align: top;
+}
+
+.blocco1 img {
+    width: 100%;
+}
+
+.blocco1 h4 {
+    font-size: 1rem;
+}
+.blocco1 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.blocco2 {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #dee1e3;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 2px;
+    vertical-align: top;
+}
+
+.blocco2 img {
+    width: 100%;
+    height: 199.26px;
+}
+
+.blocco2 h4 {
+    font-size: 1rem;
+}
+
+.blocco2 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.blocco3 {
+    text-align: center;
+    display: inline-block; 
+    border: 1px solid #dee1e3;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 2px;
+    vertical-align: top;
+}
+
+.blocco3 img {
+    height: 199.26px;
+    width: 100%;
+}
+
+.blocco3 h4 {
+    font-size: 1rem;
+}
+
+.blocco3 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.foot {
+    background-color: #25A2C3;
+    padding: 3rem;
+    color: white;
+}
+
+.foot div {
+    font-size: 14px;
+}
+
+.foot h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.foot p {
+    font-size: 14px;
+}
+
+a {
+    color: white;
+}
+
+/*.lista {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot-text .lista p {
+    text-align: start;
+}*/
+
+.indirizzo p {
+    text-align: center;
+}
+
+hr {
+    width: 250px;
+    margin: 2rem auto;
+}
+
+ion-icon, .material-symbols-outlined {
+    background-color: white;
+    color: #25A2C3;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-left: 43%;
+}
+
+.material-symbols-outlined {
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+}
